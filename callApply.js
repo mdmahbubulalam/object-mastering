@@ -12,7 +12,7 @@ const normalPerson = {
 }
 
 console.log(normalPerson.firstName);
-normalPerson.chargeBill(150);
+normalPerson.chargeBill(150);//normalPerson object er chargeBill property er function amount pathano hochche. 
 normalPerson.chargeBill(2050);
 
 console.log(normalPerson.salary);
