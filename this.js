@@ -28,3 +28,7 @@ function add(a,b){
 add(12,12); // er left side kichu nai, tai this value ta hobe window.
 
 // kono ekta dom element er upore jodi event handler ta thake, tar vitore jetate click kora hobe, setai hobe this.
+
+setTimeout(function() {
+    console.log(this); // eitar bane keu nai, tai window hobe.
+}, 1000);
