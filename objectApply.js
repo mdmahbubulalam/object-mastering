@@ -26,7 +26,7 @@ const friendlyPerson = {
 
 /* ekhane normalPerson er chargeBill method ta apply korlam heroPerson object a.ekhane this er value ta heroPerson hobe.
    call and apply duita diyei jekono objecte er method ke direct call kora jay, but apply er khetre argument ke array hisabe 
-   pathate hobe.  */
+   pathate hobe. ar kono ekta object er method ke dhar kore use korte chaile bind use korte hoy */
 normalPerson.chargeBill.apply(heroPerson, [900,300,30]);
 normalPerson.chargeBill.apply(friendlyPerson,[3000,300,30]);
 console.log(heroPerson.salary);
